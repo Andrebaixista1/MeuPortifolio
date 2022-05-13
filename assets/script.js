@@ -6,3 +6,4 @@ chk.addEventListener('change', () => {
     // document.querySelectorAll('.left-data').forEach(container => container.classList.toggle('dark'));
     // document.querySelectorAll('.right-data').forEach(container => container.classList.toggle('dark'));
 }   )
+
