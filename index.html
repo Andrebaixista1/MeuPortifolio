@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width" />
     <title>André Felipe</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" href="./icon-page.png" type="image/png">
+    <link rel="icon" href="./icon-page.png" type="image/png" />
   </head>
 
   <body>
     <div class="bloco">
       <div class="container">
+        <div class="container_btn">
+          <input type="checkbox" class="btn_color" onclick="blackColor()" id="chk"></input>
+          <label for="chk" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <dib class="ball"></dib>
+          </label>
+        </div>
         <div class="imagem">
-          <img src="https://media-exp1.licdn.com/dms/image/D4D35AQHN7BYorbiCYQ/profile-framedphoto-shrink_200_200/0/1652456878835?e=1653062400&v=beta&t=a-2RdJcxb-Aba1o9w-cZT-Rsv7McfF0Ue5JjXljKiAw" alt="Foto de perfil André" />
+          <img
+            src="https://media-exp1.licdn.com/dms/image/D4D35AQHN7BYorbiCYQ/profile-framedphoto-shrink_200_200/0/1652456878835?e=1653062400&v=beta&t=a-2RdJcxb-Aba1o9w-cZT-Rsv7McfF0Ue5JjXljKiAw"
+            alt="Foto de perfil André"
+          />
         </div>
         <h2>André Felipe</h2>
         <h4>26 Anos</h4>
         <h5>
           Assistente Administrativo | Analista de Dados | Desenvolvedor Junior
         </h5>
+        
       </div>
       <div class="container">
         <div class="left-data">
@@ -32,17 +44,21 @@
           <br />
           <h3>Contato</h3>
           <ul class="contact-names">
-            <li>
+            <li title="Clique para abrir Maps">
               <img src="./icon-location.png" alt="Endereço" />
               <a href="https://goo.gl/maps/bM1MaxjqJtdCkWFH8" target="_blank">
                 Jaçanã - Zona Norte</a
               >
             </li>
-            <li>
+            <li title="Clique para abrir Gmail">
               <img src="./icon-email.png" alt="Email" />
-              andrbter@gmail.com
+              <a
+                href="malito:andrbter@gmail.com?https://mail.google.com/mail/u/0/#inbox?compose=new"
+              >
+                andrbter@gmail.com</a
+              >
             </li>
-            <li>
+            <li title="Clique para abrir Whatsapp">
               <img src="./icon-whats.png" alt="Celular/Whatsapp" />
               <a
                 href="https://api.whatsapp.com/send?phone=5511983438716&text=Ol%C3%A1%20Andr%C3%A9%20!%20Temos%20uma%20oportunidade%20para%20voc%C3%AA%20!"
@@ -51,12 +67,20 @@
                 (11) 98343-8716</a
               >
             </li>
-            <li>
+            <li title="Clique para abrir LinkedIn">
               <img src="./icon-linkedin.png" alt="Linkedin" />
               <a
                 href="https://www.linkedin.com/in/andre-felipepinto01/"
                 target="_blank"
                 >andre-felipepinto01</a
+              >
+            </li>
+            <li title="Clique para ir ao GitHub">
+              <img src="./icon-git.png" alt="GitHub" /><a
+                target="_blank"
+                href="https://github.com/Andrebaixista1"
+              >
+                André - GitHub</a
               >
             </li>
           </ul>
@@ -173,4 +197,6 @@
       </div>
     </div>
   </body>
+  <script src="./script.js"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 </html>
