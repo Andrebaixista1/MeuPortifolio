@@ -4,6 +4,12 @@
   
 }
 
+.foot-page{
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 6%;
+  margin-top: 20px;
+}
 
 
 body{
